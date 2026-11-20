@@ -56,7 +56,7 @@ public class ArbolBB <T>{
 			return Retirar(root.getSubDer(),root,true,dato);
 		if(res<0)
 			return Retirar(root.getSubIzq(),root,false,dato);
-		// Encontró al nodo, señaloadp por root
+		// EncontrÃ³ al nodo, seÃ±aloadp por root
 			dr=root.getInfo();
 
 		
