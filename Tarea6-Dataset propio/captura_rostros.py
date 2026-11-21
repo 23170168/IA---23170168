@@ -4,6 +4,7 @@ import unicodedata
 
 import cv2
 
+
 # Configuración
 CARPETA_DATASET = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dataset")
 TAMANO_ROSTRO = (128, 128)   # tamaño uniforme del dataset (requisito: 128x128)
