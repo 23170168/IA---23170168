@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import fetch_california_housing
 
+
 # Cargar el dataset de California Housing
 california = fetch_california_housing(as_frame=True)
 
